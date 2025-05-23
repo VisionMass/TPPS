@@ -29,7 +29,9 @@ Prerequisites:
     * kagglehub
  
 You can typically install these libraries using pip :          
-`Bash  pip install pandas numpy kagglehub`
+``` 
+Bash  pip install pandas numpy kagglehub
+```
 
 ### 1. Set up Kaggle API (if running locally)
 
@@ -49,16 +51,16 @@ Clone this repository or download the `CP372_FinalProject_115_122.ipynb` file.
 ### 3. Download the Dataset
 
 The notebook is set up to download the "Customer Shopping Trends Dataset" directly from Kaggle using the `kagglehub` library. The relevant code in the notebook is:
+```Python
 
-`Python`
+import kagglehub
 
-`import kagglehub`
+#Download latest version
 
-`#Download latest version`
+path = kagglehub.dataset_download("iamsouravbanerjee/customer-shopping-trends-dataset") #
 
-`path = kagglehub.dataset_download("iamsouravbanerjee/customer-shopping-trends-dataset") #`
-
-`print("Path to dataset files:", path) #`
+print("Path to dataset files:", path) #
+```
 
 
 When you run this cell in the notebook, it will download the dataset files. The original dataset file used is `shopping_trends.csv`.
