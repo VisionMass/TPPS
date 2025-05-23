@@ -3,5 +3,5 @@ This projest was created for studying about data analytics and business intellig
 
 Group Members :
 
-          Tanthong        Plengsiang   65102010115
-          Patcharapon     Sermkaew     65102010122
+          แทนทอง   เปล่งเสียง    65102010115
+          พัชรพล    เสริมแก้ว     65102010122
