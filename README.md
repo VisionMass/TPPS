@@ -18,6 +18,11 @@ The initial phase, detailed in the CP372_FinalProject_115_122.ipynb notebook, in
  
 The outcome of this data preparation phase is a cleaned and feature-enriched dataset (`shopping_trends_feature_engineered.csv`). This refined dataset is designed to be readily usable for subsequent in-depth exploratory data analysis, data visualization (e.g., using Tableau as outlined in the project canvas), and to serve as a solid foundation for potential machine learning modeling tasks.  Ultimately, the insights derived from analyzing this prepared data aim to help businesses make more informed decisions, tailor marketing strategies, and identify key customer segments and purchasing patterns. 
 
+**Group Members :**
+
+          แทนทอง   เปล่งเสียง    65102010115
+          พัชรพล    เสริมแก้ว     65102010122
+
 ## Getting Started
 This section outlines the steps to set up the environment, download the dataset, and run the data processing notebook.
 Prerequisites:
@@ -138,7 +143,4 @@ Visualization Type: Bar Chart (grouped by Season, with bars representing Categor
 **How to Interpret:** Each group of bars represents a Season. Within each season, individual bars represent the total Purchase Amount for a specific Category. The color of the bars also indicates the Season, providing an additional visual cue.
 
 
-**Group Members :**
 
-          แทนทอง   เปล่งเสียง    65102010115
-          พัชรพล    เสริมแก้ว     65102010122
