@@ -87,9 +87,58 @@ After running the notebook, you will find the processed dataset:
 You can then use this cleaned dataset for your analyses, visualizations (e.g., in Tableau), or machine learning tasks as outlined in your project canvas.
 
 
+## Exploratory Data Analysis (EDA)
+The initial phase of this project focused on exploratory data analysis to understand customer shopping behaviors and identify key trends within the "Customer Shopping Trends Dataset". The analysis involved data cleaning, transformation, and feature engineering to prepare the dataset for meaningful insights.
+
+![คะแนนเฉลี่ยในแต่ละสีของสินค้าที่ถูกซื้อ](Tableau_Visualizations/คะแนนเฉลี่ยในแต่ละสีของสินค้าที่ถูกซื้อ.png)
+
+![จำนวนแต่ละประเภทสินค้าที่ขายได้ในแต่ละความถี่การซื้อสินค้า](Tableau_Visualizations/จำนวนแต่ละประเภทสินค้าที่ขายได้ในแต่ละความถี่การซื้อสินค้า.png)
+
+![ยอดซื้อรวมแยกตามแต่ละเมือง](Tableau_Visualizations/ยอดซื้อรวมแยกตามแต่ละเมือง.png)
+
+![ลูกค้าแต่ละเพศนิยมซื้อสินค้าประเภทใดมากที่สุด](Tableau_Visualizations/ลูกค้าแต่ละเพศนิยมซื้อสินค้าประเภทใดมากที่สุด.png)
+
+![วิเคราะห์การให้คะแนนรวมของสินค้าตามหมวดหมู่สินค้า](Tableau_Visualizations/วิเคราะห์การให้คะแนนรวมของสินค้าตามหมวดหมู่สินค้า.png)
+
+![วิเคราะห์จำนวนสินค้าที่ถูกขายไปในแต่ละสี](Tableau_Visualizations/วิเคราะห์จำนวนสินค้าที่ถูกขายไปในแต่ละสี.png)
+
+![วิเคราะห์ยอดซื้อก่อนหน้าต่อรายการสินค้าในแต่ละฤดูกาล](Tableau_Visualizations/วิเคราะห์ยอดซื้อก่อนหน้าต่อรายการสินค้าในแต่ละฤดูกาล.png)
+
+![วิเคราะห์ยอดซื้อแยกตามหมวดหมู่สินค้า](Tableau_Visualizations/วิเคราะห์ยอดซื้อแยกตามหมวดหมู่สินค้า.png)
+
+![สินค้าที่ขายได้ในแต่ละฤดูกาล](Tableau_Visualizations/สินค้าที่ขายได้ในแต่ละฤดูกาล.png)
+>Seasonal Product Sales by Category
+### Exploratory Data Analysis: Seasonal Product Sales by Category
+This visualization illustrates the total Purchase Amount for different product Categories during each Season (Fall, Spring, Summer, Winter). Understanding these seasonal patterns is crucial for inventory management, marketing campaigns, and sales forecasting.
+
+Visualization Type: Bar Chart (grouped by Season, with bars representing Categories within each season).
+
+#### Axes:
+
+**X-axis:** Season (Categorical: Fall, Spring, Summer, Winter) and within each season, Category (Categorical: Clothing, Accessories, Footwear, Outerwear).
+
+**Y-axis:** SUM(Purchase Amount) (Numerical: Total purchase amount in USD, ranging up to approximately 28,000 USD).
+#### Key Observations:
+
+* **Dominant Categories Across Seasons:** Clothing consistently generates the highest purchase amounts in almost all seasons. Accessories also show strong sales across most seasons.
+* **Seasonal Peaks for Specific Categories:**
+
+  * **Fall:** Clothing has the highest sales, followed by Accessories. Outerwear sales are moderate, likely due to the onset of cooler weather.
+  * **Spring:** Clothing sales are strong, but Accessories also show a significant boost compared to Fall. Footwear sales are moderate.
+  * **Summer:** Clothing remains dominant. Accessories also maintain high sales. Footwear sales are notably lower than in Spring, which might be counterintuitive and warrants further investigation (e.g., specific types of footwear). Outerwear sales are the lowest, as expected.
+  * **Winter:** Clothing sales peak dramatically, suggesting a high demand for winter apparel. Accessories also perform very well. Outerwear sales experience their highest peak in Winter, which is highly expected. Footwear sales are moderate.
+
+* **Lowest Performing Category:** Outerwear generally has the lowest sales in Spring and Summer, as expected, but experiences a significant surge in Fall and especially Winter. Footwear also tends to be lower compared to Clothing and Accessories.
+* **Strategic Insights:**
+  * **Inventory Planning:** Businesses can use this data to optimize inventory levels for each category based on the season. For example, stocking up on Outerwear for Winter and reducing it for Summer.
+  * **Marketing & Promotions:** Tailor marketing campaigns to highlight relevant categories during specific seasons (e.g., promoting Clothing and Outerwear heavily in Winter).
+  * **Product Development:** Identify opportunities for new products or variations within categories that show lower sales in certain seasons (e.g., lightweight footwear for summer).
 
 
-Group Members :
+**How to Interpret:** Each group of bars represents a Season. Within each season, individual bars represent the total Purchase Amount for a specific Category. The color of the bars also indicates the Season, providing an additional visual cue.
+
+
+**Group Members :**
 
           แทนทอง   เปล่งเสียง    65102010115
           พัชรพล    เสริมแก้ว     65102010122
